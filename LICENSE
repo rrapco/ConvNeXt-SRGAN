@@ -6,6 +6,9 @@ This repository contains research code developed for the master's thesis
 "Zvýšenie rozlíšenia a rekonštrukcia obrazu pomocou generatívnych neurónových sietí"
 (Image Super-Resolution and Reconstruction Using Generative Neural Networks).
 
+
+TensorLayer SRGAN Attribution
+
 Parts of this repository are based on or adapted from the TensorLayer SRGAN
 implementation:
 
@@ -18,9 +21,29 @@ requires contacting the TensorLayer authors.
 Any code in this repository derived from that project remains subject to the
 applicable upstream terms.
 
+
+ConvNeXt Attribution
+
+This project incorporates architectural concepts from ConvNeXt:
+
+Zhuang Liu, Hanzi Mao, Chao-Yuan Wu, Christoph Feichtenhofer,
+Trevor Darrell, and Saining Xie,
+"A ConvNet for the 2020s", CVPR 2022.
+
+Official implementation:
+https://github.com/facebookresearch/ConvNeXt
+
+ConvNeXt is licensed under the MIT License.
+
+
+Original Contributions
+
 The original modifications and additions authored for this thesis are made
 available for academic, research, and educational non-commercial use, provided
 that appropriate attribution is retained.
+
+
+Disclaimer
 
 No warranty is provided. The software is provided "as is", without warranty of
 any kind, express or implied, including but not limited to warranties of
