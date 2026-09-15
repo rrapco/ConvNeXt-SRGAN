@@ -196,6 +196,29 @@ The evaluation code loads the trained generator weights and generates a 4× supe
 
 The thesis evaluates the models using **PSNR**, **SSIM**, and visual comparison.
 
+## Visual Results
+
+The following examples provide a qualitative comparison of the reconstructed
+images produced by the reference SRGAN and the proposed ConvNeXt-SRGAN
+generator.
+
+In each comparison:
+
+- **a)** Reference SRGAN
+- **b)** ConvNeXt-SRGAN
+
+<p align="center">
+  <img src="img/comparison_016.png" width="850">
+</p>
+
+<p align="center">
+  <img src="img/comparison_034.png" width="850">
+</p>
+
+<p align="center">
+  <img src="img/picture.png" width="850">
+</p>
+
 ## Pretrained ConvNeXt-SRGAN weights
 
 The trained generator and discriminator checkpoints are not stored directly in the Git repository because the files exceed GitHub's regular file-size limit.
