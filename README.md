@@ -21,6 +21,35 @@ The main ConvNeXt-SRGAN generator uses:
 
 The implementation uses **TensorLayerX with the TensorFlow backend**.
 
+## Architecture
+
+The proposed ConvNeXt-SRGAN generator replaces the residual blocks of the
+reference SRGAN generator with ConvNeXt-style blocks while preserving the
+overall super-resolution pipeline.
+
+<p align="center">
+  <img src="img/convnext_srgan_generator_arch.png" width="800">
+  <br>
+  <em>Architecture of the proposed ConvNeXt-SRGAN generator.</em>
+</p>
+
+The generator processes a low-resolution input image through an initial
+convolutional layer followed by 16 ConvNeXt blocks. A global skip connection
+is used around the main feature extraction stage. Two Pixel Shuffle
+upsampling stages increase the spatial resolution by a total factor of ×4.
+
+### ConvNeXt Block
+
+Each ConvNeXt block consists of a 7×7 depthwise convolution, Layer
+Normalization, two 1×1 pointwise convolutions with GELU activation, Layer
+Scale, and a residual connection.
+
+<p align="center">
+  <img src="img/convnext_block_details.png" width="800">
+  <br>
+  <em>Detailed architecture of the ConvNeXt block used in the generator.</em>
+</p>
+
 ## Environment
 
 The original experiments were performed with:
