@@ -1,0 +1,10 @@
+git+https://github.com/tensorlayer/tensorlayerx.git
+numpy>=1.16.1
+easydict==1.9
+opencv-python>=4.5.1.48
+
+https://github.com/tensorlayer/SRGAN
+spustenie
+source srgan/SRGAN/env/bin/activate
+cd srgan/SRGAN
+napriklad: python src/srgan_convnext_3.6/train_convnext_test.py
