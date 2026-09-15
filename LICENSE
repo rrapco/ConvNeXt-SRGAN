@@ -1,0 +1,30 @@
+Academic and Non-Commercial Use Notice
+
+Copyright (c) 2026 Roman Rapco
+
+This repository contains research code developed for the master's thesis
+"Zvýšenie rozlíšenia a rekonštrukcia obrazu pomocou generatívnych neurónových sietí"
+(Image Super-Resolution and Reconstruction Using Generative Neural Networks).
+
+Parts of this repository are based on or adapted from the TensorLayer SRGAN
+implementation:
+
+https://github.com/tensorlayer/SRGAN
+
+The upstream TensorLayer SRGAN repository states that its implementation is
+provided for academic and non-commercial use only, and that commercial use
+requires contacting the TensorLayer authors.
+
+Any code in this repository derived from that project remains subject to the
+applicable upstream terms.
+
+The original modifications and additions authored for this thesis are made
+available for academic, research, and educational non-commercial use, provided
+that appropriate attribution is retained.
+
+No warranty is provided. The software is provided "as is", without warranty of
+any kind, express or implied, including but not limited to warranties of
+merchantability, fitness for a particular purpose, and non-infringement.
+
+For any intended commercial use, the licensing terms and permissions of all
+relevant upstream components must be reviewed and obtained separately.

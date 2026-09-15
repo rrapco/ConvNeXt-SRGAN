@@ -165,12 +165,6 @@ python src/train.py --mode=eval
 
 The evaluation code loads the trained generator weights and generates a 4× super-resolved image.
 
-For quantitative evaluation, see:
-
-```text
-notebooks/evaluate_metrics.ipynb
-```
-
 The thesis evaluates the models using **PSNR**, **SSIM**, and visual comparison.
 
 ## Pretrained ConvNeXt-SRGAN weights
