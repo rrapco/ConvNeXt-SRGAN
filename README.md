@@ -210,7 +210,7 @@ This repository contains the implementation developed for my master's thesis:
 
 Pavol Jozef Šafárik University in Košice, Institute of Computer Science.
 
-**Thesis:** [add public thesis link here](https://opac.crzp.sk/?fn=detailBiblioFormChildQ6ALH&sid=7F669382AC00D013D59DE75C621E&seo=CRZP-detail-kniha)
+**Thesis:** [Master's Thesis here](https://opac.crzp.sk/?fn=detailBiblioFormChildQ6ALH&sid=7F669382AC00D013D59DE75C621E&seo=CRZP-detail-kniha)
 
 ## Acknowledgements
 
