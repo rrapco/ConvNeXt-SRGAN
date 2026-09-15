@@ -1,4 +1,6 @@
-# Image Super-Resolution with ConvNeXt-SRGAN
+# ConvNeXt-SRGAN: Image Super-Resolution with ConvNeXt Blocks
+
+ConvNeXt-SRGAN is a modified SRGAN architecture for 4× single-image super-resolution, developed as part of my master's thesis.
 
 Implementation accompanying my master's thesis **“Zvýšenie rozlíšenia a rekonštrukcia obrazu pomocou generatívnych neurónových sietí”** (*Image Super-Resolution and Reconstruction Using Generative Neural Networks*).
 
