@@ -219,12 +219,6 @@ In each comparison:
   <img src="img/picture.png" width="850">
 </p>
 
-## Pretrained ConvNeXt-SRGAN weights
-
-The trained generator and discriminator checkpoints are not stored directly in the Git repository because the files exceed GitHub's regular file-size limit.
-
-If pretrained weights are published later, they can be distributed through the repository's **GitHub Releases** section and referenced here.
-
 ## Thesis
 
 This repository contains the implementation developed for my master's thesis:
